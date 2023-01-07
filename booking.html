@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Booking</title>
+  </head>
+  <body>
+    <!-- Side Nav -->
+    <header>
+      <nav class="side-nav">
+        <a href="/index.html" class="side-nav__logo d-flex align-items-center">
+          <img src="images/logo.svg" alt="Motiv" />
+          <h2 class="mb-0">Motiv.</h2>
+        </a>
+
+        <div class="side-nav__content-container d-flex flex-column">
+          <a href="/index.html" class="content d-flex align-items-center">
+            <img src="images/dashboard icon.svg" alt="dashboard icon" />
+            <span>Dashboard</span>
+          </a>
+          <a href="/index.html" class="content d-flex align-items-center">
+            <img src="images/Assests.svg" alt="assets icon" />
+            <span>Assests</span>
+          </a>
+          <a
+            href="/booking.html"
+            class="content active d-flex align-items-center"
+          >
+            <img src="images/Booking.svg" alt="booking icon" />
+            <span>Booking</span>
+          </a>
+          <a href="/index.html" class="content d-flex align-items-center">
+            <img src="images/Sell.svg" alt="sell icon" />
+            <span>Sell Cars</span>
+          </a>
+          <a href="/index.html" class="content d-flex align-items-center">
+            <img src="images/Buy.svg" alt="buy icon" />
+            <span>Buy Cars</span>
+          </a>
+          <a href="/index.html" class="content d-flex align-items-center">
+            <img src="images/Services.svg" alt="services icon" />
+            <span>Services</span>
+          </a>
+          <a href="/index.html" class="content d-flex align-items-center">
+            <img src="images/Calendar.svg" alt="calendar icon" />
+            <span>Calendar</span>
+          </a>
+          <a href="/index.html" class="content d-flex align-items-center">
+            <img src="images/Messages.svg" alt="messages icon" />
+            <span>Messages</span>
+          </a>
+          <div class="bottom d-flex flex-column">
+            <a
+              href="/index.html"
+              class="content d-flex align-items-center mt-md-auto"
+            >
+              <img src="images/Settings.svg" alt="settings icon" />
+              <span>Settings</span>
+            </a>
+            <a href="/index.html" class="content d-flex align-items-center">
+              <img src="images/Logout.svg" alt="logout icon" />
+              <span>Logout</span>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- End of Side Nav -->
+
+    <!-- Main Nav -->
+    <nav class="main-nav d-flex align-items-center justify-content-between">
+      <div class="search-box">
+        <img src="images/glass.svg" alt="search icon" />
+        <span class="indicator"></span>
+        <input type="text" placeholder="Search or type" />
+      </div>
+      <div class="user-info d-flex align-items-center">
+        <img src="images/notification.svg" alt="notification icon" />
+        <img
+          src="images/portrait-handsome-european-male-student-has-gentle-smile-face-happy-hear-pleasant-news-stands-delighted-wears-round-spectacles-orange-jumper.png"
+          alt="user image"
+        />
+      </div>
+    </nav>
+    <!-- End of Main Nav -->
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <h1>Booking</h1>
+      <div class="filter d-flex align-items-center justify-content-between">
+        <div class="car-filter d-flex align-items-center">
+          <div class="select-wrapper d-flex align-items-center">
+            <select class="custom-select">
+              <option value="New">New</option>
+              <span></span>
+            </select>
+          </div>
+          <div class="select-wrapper d-flex align-items-center">
+            <select class="custom-select">
+              <option value="Toyota">Toyota</option>
+              <span></span>
+            </select>
+          </div>
+        </div>
+        <div class="show-filter d-flex align-items-center">
+          <div class="show d-flex align-items-center justify-content-center">
+            <img src="images/dashboard icon.svg" alt="grid icon" />
+          </div>
+          <div class="show active d-flex align-items-center justify-content-center">
+            <img src="images/Show.svg" alt="inline icon" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="car-name d-flex align-items-center justify-content-between">
+              <h4 class="title mb-0">Porshe 718 Cayman S</h4>
+              <img src="images/Heart.svg" alt="heart icon">
+            </div>
+            <p>Coupe</p>
+            <div class="text-center">
+              <img src="images/car-audi-a3-audi-a4-car-3822c2bc08e2c2bce1d8ead0e70c7ddb.jpg" alt="Audi" class="car-img">
+            </div>
+            <div class="car-options d-flex align-items-center justify-content-between">
+              <div class="left d-flex align-items-center justify-content-between">
+                <div class="passenger d-flex align-items-center">
+                  <img src="images/passenger.svg" alt="passenger icon">
+                  <p class="mb-0">4</p>
+                </div>
+                <div class="manual d-flex align-items-center">
+                  <img src="images/manual.svg" alt="manual icon">
+                  <p class="mb-0">Manual</p>
+                </div>
+              </div>
+              <div class="right">
+                <p class="title mb-0">$400<span>/d</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="car-name d-flex align-items-center justify-content-between">
+              <h4 class="title mb-0">Porshe 718 Cayman S</h4>
+              <img src="images/love.svg" alt="love icon">
+            </div>
+            <p>Coupe</p>
+            <div class="text-center">
+              <img src="images/mercedes.jpg" alt="Mercedes" class="car-img">
+            </div>
+            <div class="car-options d-flex align-items-center justify-content-between">
+              <div class="left d-flex align-items-center justify-content-between">
+                <div class="passenger d-flex align-items-center">
+                  <img src="images/passenger.svg" alt="passenger icon">
+                  <p class="mb-0">4</p>
+                </div>
+                <div class="manual d-flex align-items-center">
+                  <img src="images/manual.svg" alt="manual icon">
+                  <p class="mb-0">Manual</p>
+                </div>
+              </div>
+              <div class="right">
+                <p class="title mb-0">$400<span>/d</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="car-name d-flex align-items-center justify-content-between">
+              <h4 class="title mb-0">Porshe 718 Cayman S</h4>
+              <img src="images/Heart.svg" alt="heart icon">
+            </div>
+            <p>Coupe</p>
+            <div class="text-center">
+              <img src="images/white car.jpg" alt="white car" class="car-img">
+            </div>
+            <div class="car-options d-flex align-items-center justify-content-between">
+              <div class="left d-flex align-items-center justify-content-between">
+                <div class="passenger d-flex align-items-center">
+                  <img src="images/passenger.svg" alt="passenger icon">
+                  <p class="mb-0">4</p>
+                </div>
+                <div class="manual d-flex align-items-center">
+                  <img src="images/manual.svg" alt="manual icon">
+                  <p class="mb-0">Manual</p>
+                </div>
+              </div>
+              <div class="right">
+                <p class="title mb-0">$400<span>/d</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="car-name d-flex align-items-center justify-content-between">
+              <h4 class="title mb-0">Porshe 718 Cayman S</h4>
+              <img src="images/Heart.svg" alt="heart icon">
+            </div>
+            <p>Coupe</p>
+            <div class="text-center">
+              <img src="images/suzuki.jpg" alt="suzuki car" class="car-img">
+            </div>
+            <div class="car-options d-flex align-items-center justify-content-between">
+              <div class="left d-flex align-items-center justify-content-between">
+                <div class="passenger d-flex align-items-center">
+                  <img src="images/passenger.svg" alt="passenger icon">
+                  <p class="mb-0">4</p>
+                </div>
+                <div class="manual d-flex align-items-center">
+                  <img src="images/manual.svg" alt="manual icon">
+                  <p class="mb-0">Manual</p>
+                </div>
+              </div>
+              <div class="right">
+                <p class="title mb-0">$400<span>/d</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="car-name d-flex align-items-center justify-content-between">
+              <h4 class="title mb-0">Porshe 718 Cayman S</h4>
+              <img src="images/Heart.svg" alt="heart icon">
+            </div>
+            <p>Coupe</p>
+            <div class="text-center">
+              <img src="images/suzuki2.jpg" alt="suzuki car" class="car-img">
+            </div>
+            <div class="car-options d-flex align-items-center justify-content-between">
+              <div class="left d-flex align-items-center justify-content-between">
+                <div class="passenger d-flex align-items-center">
+                  <img src="images/passenger.svg" alt="passenger icon">
+                  <p class="mb-0">4</p>
+                </div>
+                <div class="manual d-flex align-items-center">
+                  <img src="images/manual.svg" alt="manual icon">
+                  <p class="mb-0">Manual</p>
+                </div>
+              </div>
+              <div class="right">
+                <p class="title mb-0">$400<span>/d</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="car-name d-flex align-items-center justify-content-between">
+              <h4 class="title mb-0">Porshe 718 Cayman S</h4>
+              <img src="images/Heart.svg" alt="heart icon">
+            </div>
+            <p>Coupe</p>
+            <div class="text-center">
+              <img src="images/toyota.jpg" alt="toyota car" class="car-img">
+            </div>
+            <div class="car-options d-flex align-items-center justify-content-between">
+              <div class="left d-flex align-items-center justify-content-between">
+                <div class="passenger d-flex align-items-center">
+                  <img src="images/passenger.svg" alt="passenger icon">
+                  <p class="mb-0">4</p>
+                </div>
+                <div class="manual d-flex align-items-center">
+                  <img src="images/manual.svg" alt="manual icon">
+                  <p class="mb-0">Manual</p>
+                </div>
+              </div>
+              <div class="right">
+                <p class="title mb-0">$400<span>/d</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="car-name d-flex align-items-center justify-content-between">
+              <h4 class="title mb-0">Porshe 718 Cayman S</h4>
+              <img src="images/Heart.svg" alt="heart icon">
+            </div>
+            <p>Coupe</p>
+            <div class="text-center">
+              <img src="images/car-audi-a3-audi-a4-car-3822c2bc08e2c2bce1d8ead0e70c7ddb.jpg" alt="Audi" class="car-img">
+            </div>
+            <div class="car-options d-flex align-items-center justify-content-between">
+              <div class="left d-flex align-items-center justify-content-between">
+                <div class="passenger d-flex align-items-center">
+                  <img src="images/passenger.svg" alt="passenger icon">
+                  <p class="mb-0">4</p>
+                </div>
+                <div class="manual d-flex align-items-center">
+                  <img src="images/manual.svg" alt="manual icon">
+                  <p class="mb-0">Manual</p>
+                </div>
+              </div>
+              <div class="right">
+                <p class="title mb-0">$400<span>/d</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="car-name d-flex align-items-center justify-content-between">
+              <h4 class="title mb-0">Porshe 718 Cayman S</h4>
+              <img src="images/Heart.svg" alt="heart icon">
+            </div>
+            <p>Coupe</p>
+            <div class="text-center">
+              <img src="images/mercedes.jpg" alt="Mercedes" class="car-img">
+            </div>
+            <div class="car-options d-flex align-items-center justify-content-between">
+              <div class="left d-flex align-items-center justify-content-between">
+                <div class="passenger d-flex align-items-center">
+                  <img src="images/passenger.svg" alt="passenger icon">
+                  <p class="mb-0">4</p>
+                </div>
+                <div class="manual d-flex align-items-center">
+                  <img src="images/manual.svg" alt="manual icon">
+                  <p class="mb-0">Manual</p>
+                </div>
+              </div>
+              <div class="right">
+                <p class="title mb-0">$400<span>/d</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="car-name d-flex align-items-center justify-content-between">
+              <h4 class="title mb-0">Porshe 718 Cayman S</h4>
+              <img src="images/Heart.svg" alt="heart icon">
+            </div>
+            <p>Coupe</p>
+            <div class="text-center">
+              <img src="images/white car.jpg" alt="white car" class="car-img">
+            </div>
+            <div class="car-options d-flex align-items-center justify-content-between">
+              <div class="left d-flex align-items-center justify-content-between">
+                <div class="passenger d-flex align-items-center">
+                  <img src="images/passenger.svg" alt="passenger icon">
+                  <p class="mb-0">4</p>
+                </div>
+                <div class="manual d-flex align-items-center">
+                  <img src="images/manual.svg" alt="manual icon">
+                  <p class="mb-0">Manual</p>
+                </div>
+              </div>
+              <div class="right">
+                <p class="title mb-0">$400<span>/d</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
